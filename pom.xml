@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+        Shadows of Maya: The Old Eden Project
+    =============================================
+
+
+
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- $$ data -->
+    <groupId>co.mcsp.eden</groupId>
+    <artifactId>fracture</artifactId>
+    <version>0.1.0-m1.10.2</version>
+
+    <!-- $$ meta -->
+    <name>Fracture</name>
+    <organization>
+        <name>Minecraft Server Project</name>
+        <url>http://mcsp.co</url>
+    </organization>
+    <developers>
+        <developer>
+            <id>CynicalBusiness</id>
+            <name>Matthew Struble</name>
+            <email>matt@vevox.io</email>
+            <organization>Vevox Digital</organization>
+        </developer>
+    </developers>
+
+    <!-- $$ repos -->
+    <repositories>
+        <!-- $$ repos.spigot -->
+        <repository>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+        <!-- $$ repos.vevox -->
+        <repository>
+            <id>vevox-repo</id>
+            <url>http://a.vevox.io/mvn</url>
+        </repository>
+    </repositories>
+
+    <!-- $$ deps -->
+    <dependencies>
+        <!-- $$ deps.vxlib -->
+        <dependency>
+            <groupId>io.vevox.vx</groupId>
+            <artifactId>lib</artifactId>
+            <version>0.1.2-m1.10.2</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- $$ deps.spigot -->
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot</artifactId>
+            <version>1.10.2-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- $$ deps.junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+
+</project>

@@ -1,0 +1,7 @@
+# IDEA files
+.idea/
+*.iml
+
+# Build directories and dependency files
+target/
+dependency-reduced-pom.xml

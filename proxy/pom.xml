@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>fracture</artifactId>
+        <groupId>co.mcsp.eden</groupId>
+        <version>0.1.0-m1.10.2</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>co.mcsp.eden.fracture</groupId>
+    <artifactId>bungee</artifactId>
+
+    <!-- $$ repos -->
+    <repositories>
+        <!-- $$ repos.bungee -->
+        <repository>
+            <id>bungeecord-repo</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </repository>
+    </repositories>
+
+    <!-- $$ deps -->
+    <dependencies>
+        <!-- $$ deps.bungee -->
+        <dependency>
+            <groupId>net.md-5</groupId>
+            <artifactId>bungeecord-api</artifactId>
+            <version>1.10-SNAPSHOT</version>
+            <type>jar</type>
+            <scope>provided</scope>
+        </dependency>
+        <!-- $$ deps.bungee-doc -->
+        <dependency>
+            <groupId>net.md-5</groupId>
+            <artifactId>bungeecord-api</artifactId>
+            <version>1.10-SNAPSHOT</version>
+            <type>javadoc</type>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+</project>
